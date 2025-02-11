@@ -1,0 +1,21 @@
+<!--
+  @description       : 
+  @author            : ChangeMeIn@UserSettingsUnder.SFDoc
+  @group             : 
+  @last modified on  : 02-11-2025
+  @last modified by  : ChangeMeIn@UserSettingsUnder.SFDoc
+-->
+<template>
+    <lightning-card>
+        <lightning-input
+            type="number"
+            label="Annual Revenue"
+            value={annualRevenue}
+            
+            onchange={handleChange}></lightning-input>
+        <lightning-button 
+        label="Reset"
+            onclick={reset}>
+        </lightning-button>
+    </lightning-card>
+  </template>
